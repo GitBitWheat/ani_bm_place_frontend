@@ -1,0 +1,15 @@
+.pixelgrid {
+    padding: 0px 0px 0px 0px;
+    border-bottom: 0.6vh solid black;
+    width: fit-content;
+    height: fit-content;
+}
+
+.pixelgrid-row {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0px;
+}

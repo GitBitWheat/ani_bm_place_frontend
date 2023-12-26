@@ -1,0 +1,18 @@
+.meta-box {
+    bottom: 17.5vh;
+    right: 0vw;
+    padding-right: 2vw;
+    color: white;
+    width: 30vw;
+    text-align: right;
+    direction: rtl;
+}
+
+.meta-box > * {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.meta-box > * > * {
+    margin-left: 5px;
+}

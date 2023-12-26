@@ -1,0 +1,45 @@
+.game-palette {
+    position: fixed;
+    background-color: white;
+    border: 0.6vh solid black;
+
+    bottom: 1vh;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    height: 11.7vw;
+    width: 19.5vw;
+
+    padding: 0.4vw 0.4vw 0.4vw 0.4vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.4vw;
+
+    z-index: 2;
+}
+
+.game-palette-row {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.4vw;
+}
+
+.game-palette-color {
+    height: 3.5vw;
+    width: 3.5vw;
+    border: 0.05vw solid black;
+}
+.game-palette-color:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 0.15vw black;
+}
+
+.game-palette-color.game-palette-selected-color {
+    box-shadow: 0px 0px 0px 0.15vw black;
+}

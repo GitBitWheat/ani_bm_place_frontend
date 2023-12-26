@@ -1,0 +1,23 @@
+.pixel-element {
+    padding: 0px 0px 0px 0px;
+}
+.pixel-element:hover {
+    box-shadow: 0px 0px 2px teal;
+    z-index: 1;
+}
+
+.pixel-element.pixel-element-update-allowed:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 6px teal;
+}
+
+.placer-box {
+    padding: 2px 2px 2px 2px;
+    font-size: 1rem;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    height: 19.5px;
+    user-select: none;
+}
